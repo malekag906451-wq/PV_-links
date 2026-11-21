@@ -1,0 +1,60 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: 'Kristen ITC';
+}
+body {
+    background-color: slategrey;
+}
+.Logo {
+    border: gold 5px solid;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-top: 7.5%;
+}
+#TheRight {
+    color: white;
+    place-self: center;
+}
+p {
+    color: white;
+}
+.buttons {
+    border-radius: 3px;
+    place-self: center;
+    min-width: 542.5px;
+    margin-top: 5%;
+}
+#b1, #b2, #b3, #b4 {
+    border: solid black;
+    border-radius: 7.5px;
+    transition: 0.1s;
+    height: 40px;
+    font-size: 14px
+}
+#b1:active, #b2:active, #b3:active, #b4:active {
+    transform: scale(0.9)
+}
+#view {
+    border: white solid 3px;
+    height: 200px;
+    max-width: 542.5px;
+    min-width: 542.5px;
+    place-self: center;
+    margin-top: 1%;
+    background-color: black;
+    color: green;
+    overflow: auto;
+    text-align: center;
+}
+#answer1, #answer2, #answer3, #answer4 {
+    color: limegreen;
+    display: none;
+}
+.links {
+    width: fit-content;
+    margin: 0 auto;
+}
